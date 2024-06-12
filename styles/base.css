@@ -19,7 +19,15 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: #000000;
+  
+}
+
+.nav-item {
   padding: 1rem;
+}
+
+.nav-item:hover {
+  background-color: #494949;
 }
 
 main {
@@ -28,6 +36,7 @@ main {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
+  max-width: 100%;
 }
 
 main > * {
