@@ -1,0 +1,20 @@
+
+
+
+@media screen and (min-width: 768px)  {
+  .nav-items {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav, nav.show {
+    grid-column: -1/-2;
+    grid-row: 1/2;
+    display: block;
+  }
+  
+  #menu {
+    display: none ;
+    grid-row: 2/3;
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Album</title>
+    <meta
+      name="description"
+      content="An album of temples from around the world. The album is divided into categories such as old, new, large, and small temples"
+    />
+    <meta name="author" content="Hernan Yupanqui" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/temples.css" />
+    <link rel="stylesheet" href="styles/temples-large.css" />
+    <script src="scripts/getdates.js" type="text/javascript" defer></script>
+    <script src="scripts/temples.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Temple Album</h1>
+      <button type="button" title="menu" id="menu"></button>
+      <nav id="nav">
+        <ul class="nav-items">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Old</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Large</a></li>
+          <li><a href="#">Small</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <figure>
+        <img
+          src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/arequipa-peru/800x500/1-55f6c59ce8f9c093a9c689067f8674335de544e2.jpeg"
+          alt="Arequipa Peru Temple"
+          class="old"
+        />
+        <figcaption>Arequipa Peru</figcaption>
+      </figure>
+    </main>
+    <footer>
+      <p id="copyright">
+        <span id="copyrightIcon">&#169;</span>
+        <span id="currentyear"></span> -
+        <span id="authorName">Hernan Yupanqui</span> -
+        <span id="country">Peru</span>
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
