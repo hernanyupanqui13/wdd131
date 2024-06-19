@@ -5,12 +5,9 @@ body {
   margin: 0px;
 }
 
-img {
-  max-width: 220px;
-}
 
 header {
-  background-color: #1c5d99;
+  background-color: #009FB7;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   display: grid;
@@ -84,6 +81,10 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+img {
+  max-width: 220px;
 }
 
 /*
