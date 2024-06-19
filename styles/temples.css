@@ -28,7 +28,6 @@ nav.show {
   grid-column: 1/-1;
   grid-row: 2/3;
   text-align: center;
-  text-justify: center;
 }
 
 nav li {
