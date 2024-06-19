@@ -2,10 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0px;
 }
 
 img {
-  max-width: 100%;
+  max-width: 220px;
 }
 
 header {
@@ -39,9 +40,6 @@ nav li a:hover {
   color: #ffffff;
 }
 
-nav li a:hover {
-  color: #ffffff;
-}
 
 nav li a {
   text-decoration: none;
@@ -53,6 +51,7 @@ nav li a {
 .nav-items {
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 #menu {
@@ -69,4 +68,38 @@ nav li a {
 
 #menu.open::before {
   content: "x";
+}
+
+/*
+FIGURE
+*/
+
+figure {
+  text-align: center;
+}	
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*
+FOOTER
+*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+#lastModified {
+  font-size: small;
+}
+
+#copyright {
+  font-size: large;
 }
