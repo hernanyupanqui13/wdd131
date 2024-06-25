@@ -1,12 +1,5 @@
 function calculateWindChill(temp, windSpeed) {
-  const c1 = 13.12;
-  const c2 = 0.6215;
-  const c3 = 11.37;
-  const c4 = 0.3965;
-
-  const windChill = c1 + c2 * temp - c3 * Math.pow(windSpeed, 0.16) + c4 * temp * Math.pow(windSpeed, 0.16);
-
-  return windChill.toFixed(2);
+  return (13.12 + 0.6215 * temp - 11.37 * Math.pow(windSpeed, 0.16) + 0.3965 * temp * Math.pow(windSpeed, 0.16)).toFixed(2);
 }
 
 const windChillHtml = document.querySelector('#windChillValue');
