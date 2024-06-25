@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px){
+  .weather-heading::after {
+    content: "⛅";
+  }
+
+  .weather-svg {
+    display: none;
+  }
+  
+}
