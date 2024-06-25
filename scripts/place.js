@@ -14,7 +14,7 @@ tempHtml.textContent = temp + "°C";
 windSpeedHtml.textContent = windSpeed + " km/h";
 
 
-if(temp <= 10 || windSpeed > 4.8) {
+if(temp <= 10 && windSpeed > 4.8) {
   const windChill = calculateWindChill(temp, windSpeed);
   windChillHtml.textContent = windChill;
 } else {
