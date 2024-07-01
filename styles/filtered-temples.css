@@ -93,7 +93,7 @@ h2 {
 }
 
 .temple-card img {
-  max-width: 220px;
+  object-fit: cover;
 }
 
 /*

@@ -133,6 +133,8 @@ function createTemplateCard(temple) {
   img.setAttribute("src", temple.imageUrl);
   img.setAttribute("loading", "lazy");
   img.setAttribute("alt", temple.templeName);
+  img.setAttribute("width", "220");
+  img.setAttribute("height", "220");
   const location = document.createElement("p");
   const dedicated = document.createElement("p");
   const size = document.createElement("p");
