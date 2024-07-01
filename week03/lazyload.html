@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy Load</title>
+    <meta
+      name="description"
+      content="A webpage that demonstrates lazy loading image"
+    />
+    <meta name="author" content="Hernan Yupanqui" />
+    <link rel="stylesheet" href="styles/lazyload-styles.css" />
+    <script
+      src="scripts/lazyload-script.js"
+      type="text/javascript"
+      defer
+    ></script>
+    <script src="../scripts/getdates.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Lazy Load</h1>
+    </header>
+    <main>
+      <img class="lazyload-img" src="images/cats.jpg" alt="Cats" width="400px" loading="lazy" height="600px" />
+      <img class="lazyload-img" src="images/curious-bird.jpg" alt="Curious" width="400px" loading="lazy" height="600px"/>
+      <img class="lazyload-img" src="images/home-interior.jpg" alt="Home Interior" width="400px" loading="lazy" height="600px"/>
+      <img class="lazyload-img" src="images/peacock.jpg" alt="Peacock" width="400px" loading="lazy" height="600px"/>
+      <img class="lazyload-img" src="images/puppy.jpg" alt="Puppy" width="400px" loading="lazy" height="600px"/>
+      <img class="lazyload-img" src="images/oxford-architecture.jpg" alt="Oxford Architecture" width="400px" loading="lazy" height="600px"/>
+    </main>
+    <footer>
+      <p id="copyright">
+        <span id="copyrightIcon">&#169;</span>
+        <span id="currentyear"></span> -
+        <span id="authorName">Hernan Yupanqui</span> -
+        <span id="country">Peru</span>
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
