@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temple Album</title>
+    <meta
+      name="description"
+      content="An album of temples from around the world. The album is divided into categories such as old, new, large, and small temples"
+    />
+    <meta name="author" content="Hernan Yupanqui" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/filtered-temples.css" />
+    <link rel="stylesheet" href="styles/filtered-temples-large.css" />
+    <script src="scripts/getdates.js" type="text/javascript" defer></script>
+    <script src="scripts/filtered-temples.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Temple Album</h1>
+      <button type="button" title="menu" id="menu"></button>
+      <nav id="nav">
+        <ul class="nav-items">
+          <li><a href="#" id="homeButton">Home</a></li>
+          <li><a href="#" id="oldButton">Old</a></li>
+          <li><a href="#" id="newButton">New</a></li>
+          <li><a href="#" id="largeButton">Large</a></li>
+          <li><a href="#" id="smallButton">Small</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Home</h2>
+      <div class="temples-container">
+        
+      </div>
+    </main>
+    <footer>
+      <p id="copyright">
+        <span id="copyrightIcon">&#169;</span>
+        <span id="currentyear"></span> -
+        <span id="authorName">Hernan Yupanqui</span> -
+        <span id="country">Peru</span>
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
