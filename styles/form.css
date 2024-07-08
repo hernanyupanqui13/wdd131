@@ -1,0 +1,112 @@
+:root {
+  --primary-color: #0D5C63;
+  --secondary-color: #44A1A0;
+  --tertiary-color: #247B7B;
+  --light-color: #FFFFFA;
+  --dark-color: #343a40;
+
+}
+html {
+  height: 100%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+main {
+  height: 100%
+}
+
+header {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
+
+
+input[type="radio"] {
+  display: none;
+  position: relative;
+  caret-color: rgba(0, 0, 0, 0); 
+}
+
+.stars {
+  justify-content: left;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.stars > label {
+  color: gold;
+  width: 30px;
+  height: 30px;
+  font-size: 2rem;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+}
+
+.stars > label:hover {
+  color: #000;
+}
+
+.stars > label::before {
+  content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+  content: "\2605";
+}
+
+/* Form Control */
+.form-control {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control select,
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="number"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+.form input[type="submit"] {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form {
+  padding: 1rem;
+}
+
+
+/*
+FOOTER
+*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+#lastModified {
+  font-size: small;
+}
+
+#copyright {
+  font-size: large;
+}
