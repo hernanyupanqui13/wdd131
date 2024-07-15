@@ -1,0 +1,33 @@
+.card {
+  width: 25rem;
+  padding: 1rem;
+  border: 1px solid var(--tertiary-color);
+  box-shadow: 1px 1px 5px var(--secondary-color);
+  margin: 1rem;
+}
+
+.card img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.card picture {
+  display: flex;
+  aspect-ratio: 1/1;
+  background-color: var(--tertiary-color);
+}
+
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center ;
+}
+
+
+main {
+  padding: 1rem;
+}
+

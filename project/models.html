@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Center | Models</title>
+    <meta
+      name="description"
+      content="A web site about Artificial Intelligence, models, companies, and information about AI."
+    />
+    <meta name="author" content="Hernan Yupanqui" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/basic.css" />
+    <link rel="stylesheet" href="styles/basic-large.css" />
+    <link rel="stylesheet" href="styles/models.css" />
+    <link rel="stylesheet" href="styles/basic-large.css" />
+    <script src="../scripts/getdates.js" type="text/javascript" defer></script>
+    <script src="scripts/main.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>AI Center</h1>
+      <button type="button" title="menu" id="menu"></button>
+      <nav id="nav">
+        <ul class="nav-items">
+          <li><a href="./index.html" id="homeButton">Home</a></li>
+          <li><a href="./models.html" id="modelsButton">Models</a></li>
+          <li><a href="./companies.html" id="companiesButton">Companies</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>What is an AI model?</h2>
+        <div class="text">
+          <p>
+            An AI model is a mathematical representation or algorithm designed
+            to learn patterns from data and make predictions or decisions. These
+            models can range from simple linear regressions to complex neural
+            networks. They learn from labeled examples during training and
+            generalize their knowledge to new, unseen data. Common types of AI
+            models include decision trees, support vector machines, and deep
+            learning architectures like convolutional neural networks (CNNs) and
+            recurrent neural networks (RNNs). These models power various AI
+            applications, such as image recognition, natural language
+            processing, and recommendation systems. Their effectiveness depends
+            on the quality of training data, model architecture, and
+            optimization techniques.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Most Important and Famous AI Models</h2>
+        <div class="card-container">
+          <div class="card">
+            <div class="img-container">
+              <picture>
+                <source
+                  srcset="./images/gemini-large.webp"
+                  media="(min-width:768px)"
+                />
+                <img src="./images/gemini-small.webp" alt="Gemini model logo" />
+              </picture>
+            </div>
+            <div class="container">
+              <h3>Google Gemini</h3>
+              <p>
+                Google Gemini is a powerful language model that excels in
+                natural language understanding and generation. It's widely used
+                for chatbots, virtual assistants, and content recommendation
+                systems.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="img-container">
+              <picture>
+                <source
+                  srcset="./images/claude-large.webp"
+                  media="(min-width:768px)"
+                />
+                <img
+                  src="./images/claude-small.webp"
+                  alt="Anthropic Claude model logo"
+                />
+              </picture>
+            </div>
+            <div class="container">
+              <h3>Anthropic Claude</h3>
+              <p>
+                Anthropic Claude is another language model known for its
+                versatility. It can generate coherent text and has applications
+                in various domains, including conversational AI and content
+                creation.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="img-container">
+              <picture>
+                <source
+                  srcset="./images/bedrock-large.webp"
+                  media="(min-width:768px)"
+                />
+                <img
+                  src="./images/bedrock-small.webp"
+                  alt="Amazon Bedrock Claude model logo"
+                />
+              </picture>
+            </div>
+            <div class="container">
+              <h3>Amazon Bedrock</h3>
+              <p>
+                Amazon Bedrock focuses on robust language understanding and
+                context-aware responses. It's used in customer service chatbots
+                and personalized content delivery.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="img-container">
+              <picture>
+                <source
+                  srcset="./images/gpt4o-small.webp"
+                  media="(min-width:768px)"
+                />
+                <img
+                  src="./images/gpt4o-large.webp"
+                  alt="Amazon Bedrock Claude model logo"
+                />
+              </picture>
+            </div>
+            <div class="container">
+              <h3>OpenAI GPT-4o</h3>
+              <p>
+                OpenAI's GPT-4o (Generative Pre-trained Transformer) is a widely
+                acclaimed model. It's used for tasks such as text completion,
+                translation, and even creative writing. GPT-4o builds on the
+                success of its predecessors, offering improved performance and
+                versatility.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p id="copyright">
+        <span id="copyrightIcon">&#169;</span>
+        <span id="currentyear"></span> -
+        <span id="authorName">Hernan Yupanqui</span> -
+        <span id="country">Peru</span>
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
