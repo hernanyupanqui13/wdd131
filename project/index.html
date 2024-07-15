@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Center</title>
+    <meta
+      name="description"
+      content="A web site about Artificial Intelligence, models, companies, and information about AI."
+    />
+    <meta name="author" content="Hernan Yupanqui" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/home-large.css" />
+    <script src="../scripts/getdates.js" type="text/javascript" defer></script>
+    <script src="scripts/main.js" type="text/javascript" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>IA Center</h1>
+      <button type="button" title="menu" id="menu"></button>
+      <nav id="nav">
+        <ul class="nav-items">
+          <li><a href="#" id="homeButton">Home</a></li>
+          <li><a href="#" id="modelsButton">Models</a></li>
+          <li><a href="#" id="companiesButton">Companies</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>What is Artificial Intelligence?</h2>
+        <div class="text">
+          <p>
+            Artificial Intelligence (AI) refers to the development of computer
+            systems that can perform tasks typically requiring human
+            intelligence. These systems learn from data, adapt to new
+            information, and make decisions based on patterns and algorithms. AI
+            encompasses various techniques, including machine learning, natural
+            language processing, and computer vision.
+          </p>
+          <p>
+            In practical terms, AI powers virtual assistants, recommendation
+            algorithms, and self-driving cars. It enables chatbots to understand
+            and respond to user queries, personalizes content on websites, and
+            even diagnoses medical conditions. As AI continues to evolve, its
+            impact on society grows, influencing industries such as healthcare,
+            finance, and entertainment.
+          </p>
+        </div>
+        <div class="picture-container">
+          <picture>
+            <source
+              srcset="./images/neural-network-brain-large.webp"
+              media="(min-width: 768px)"
+            />
+            <img
+              src="./images/neural-network-brain-small.webp"
+              alt="Neural network in form of a brain"
+            />
+          </picture>
+        </div>
+      </section>
+      <section>
+        <h2>Why is Artificial Intelligence important?</h2>
+        <ol class="text">
+          <li>
+            <span class="bold-text">Enhancing Efficiency and Automation:&nbsp;</span>
+            AI plays a pivotal role in
+            automating repetitive tasks, thereby increasing efficiency across
+            various domains. From manufacturing to customer service, AI-powered
+            systems can handle routine processes, freeing up human resources for
+            more strategic and creative endeavors. For example, chatbots handle
+            customer inquiries, machine learning algorithms optimize supply
+            chains, and AI-driven robots assist in assembly lines. By
+            streamlining operations, AI contributes to productivity gains and
+            cost savings.
+          </li>
+          <li>
+            <span class="bold-text">Solving Complex Problems:&nbsp;</span>
+            AI excels at processing vast amounts of
+            data and identifying patterns that humans might miss. In fields like
+            healthcare, AI aids in diagnosing diseases, predicting outbreaks,
+            and personalizing treatment plans. It also powers recommendation
+            engines in e-commerce, suggesting products based on user
+            preferences. Additionally, AI enables breakthroughs in scientific
+            research, such as drug discovery and climate modeling. Its ability
+            to tackle complex problems accelerates progress across disciplines,
+            making it indispensable for our future.
+          </li>
+        </ol>
+        <div class="picture-container">
+          <picture>
+            <source
+              srcset="./images/ai-solve-problem-large.webp"
+              media="(min-width: 768px)"
+            />
+            <img
+              src="./images/ai-solve-problem-small.webp"
+              alt="Neural network in form of a brain"
+            />
+          </picture>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p id="copyright">
+        <span id="copyrightIcon">&#169;</span>
+        <span id="currentyear"></span> -
+        <span id="authorName">Hernan Yupanqui</span> -
+        <span id="country">Peru</span>
+      </p>
+      <p id="lastModified"></p>
+    </footer>
+  </body>
+</html>
