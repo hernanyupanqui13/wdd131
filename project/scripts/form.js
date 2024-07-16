@@ -8,7 +8,10 @@ const notesContainer = document.querySelector("#notes-container");
 
 
 // Load user data from local storage
-let notesData = JSON.parse(localStorage.getItem("notesData")) || [];
+let notesData = JSON.parse(localStorage.getItem("notesData"));
+if(notesData === undefined || notesData === null || notesData === "") {
+  notesData = []
+}
 notesData.forEach(note => createNoteElement(note.id, note.title, note.content));
 
 
@@ -52,7 +55,6 @@ function createNoteElement(id, title, content) {
   deleteElem.classList.add("deleteBtn");
   deleteElem.textContent = "Delete";
   deleteElem.addEventListener("click", () => {
-    console.log("deleting");
     notesData = notesData.filter(x => x.id !== id);
     localStorage.setItem("notesData", JSON.stringify(notesData));
     renderNotes();
