@@ -13,6 +13,7 @@ section.normal ol {
 
 main img {
   max-width: 100%;
+  aspect-ratio: 4/3;
 }
 
 .picture-container img {

@@ -19,6 +19,7 @@
 
 .large-card img {
   max-width: 100%;
+  aspect-ratio: 25/9;
   display: block;
   margin: auto;
 }
