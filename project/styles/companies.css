@@ -1,0 +1,50 @@
+.display-no {
+  display: none;
+}
+
+
+
+
+
+.large-card {
+  padding: 1rem;
+  border: 1px solid var(--tertiary-color);
+  box-shadow: 1px 1px 5px var(--secondary-color);
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+
+
+.large-card img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center ;
+}
+
+.large-card .text-container {
+  display: flex;
+  align-items: center;
+}
+
+
+main {
+  padding: 1rem;
+}
+
+
