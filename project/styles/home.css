@@ -1,14 +1,12 @@
-
-
 /*
 MAIN
 */
 
-section {
+section.normal {
   padding: 1rem;
 }
 
-section ol {
+section.normal ol {
   margin: 0;
   margin-bottom: 1em;
 }
@@ -22,8 +20,56 @@ main img {
   margin: auto;
 }
 
-
 .bold-text {
   font-weight: 600;
 }
 
+/*
+FORM
+*/
+
+input,
+textarea {
+  width: calc(100% - 2rem);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+}
+button {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #007bff;
+}
+
+section.notes {
+  padding: 1rem;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  color: rgba(235, 0, 0, 0.733);
+}
+
+.note-item h3 {
+  margin: 0;
+}
+
+.note-item p {
+  margin: 0;
+  margin-bottom: 0.50rem;
+}
+
+.note-item {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}

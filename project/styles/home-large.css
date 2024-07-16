@@ -3,13 +3,13 @@
   Main
   */
 
-  section {
+  section.normal {
     display: grid;
     grid-template-columns: 2fr 1fr;
     column-gap: 1rem;
   }
   
-  section h2 {
+  section.normal h2 {
     grid-column: 1/3;
   }
 
